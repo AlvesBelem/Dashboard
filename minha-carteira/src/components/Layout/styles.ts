@@ -4,7 +4,7 @@ export const Container = styled.div`
     display: grid;
     grid-template-columns: 250px auto;
     grid-template-rows: 70px auto;
-    color: #fff;
+    color: ${props => props.theme.colors.white};
 
     height: 100vh;
 
